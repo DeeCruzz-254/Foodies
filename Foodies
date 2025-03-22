@@ -1,0 +1,45 @@
+            
+        </section>
+
+        <!-- Contact Section -->
+
+        <section class="section contact-section" id="contact">
+
+            <h2 class="fancy-header">Contact Us</h2>
+
+            <p>
+
+                123 Foodies Blvd, Kutus Town<br>
+
+                Phone: (+254) 726447990<br>
+
+                Email: <a href="mailto:info@foodieshotel.com">info@foodieshotel.com</a>
+
+            </p>
+<p>
+
+                <a class="map-link" href="https://maps.google.com/?q=Foodies+Hotel+123+Foodies+Blvd" target="_blank">
+
+                    View us on Google Maps
+
+                </a>
+
+            </p>
+
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <img src="hotel.png" alt="Foodies Hotel Logo" class="logo footer-logo">
+
+        <p>&copy; 2025 Foodies Hotel | Developed by <span class="dev-icon">💻</span> Dee Cruzzer</p>
+
+    </footer>
+
+</body>
+
+</html>
