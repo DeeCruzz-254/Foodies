@@ -1,4 +1,156 @@
-            
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Foodies Hotel
+</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h1>Foodies Hotel</h1>
+
+            <p class="intro">
+
+                Located in the heart of Happy Town, Foodies Hotel is your perfect escape for fresh brews, hearty meals, and a cozy atmosphere. Since 2005, we've been serving smiles one cup at a time.
+
+            </p>
+
+        </header>
+
+        <section class="menu">
+
+            <h2>Our Menu</h2>
+
+            <table>
+
+                <tr>
+
+                    <th>Category</th>
+
+                    <th>Item</th>
+
+                    <th>Price</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>Breakfast</td>
+
+                    <td>Buttermilk Pancakes</td>
+
+                    <td>150ksh</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Lunch</td>
+
+                    <td>Grilled Chicken Sandwich</td>
+
+                    <td>250ksh</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Drinks</td>
+
+                    <td>Fresh Lemonade</td>
+
+                    <td>100ksh</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <section class="contact">
+
+            <h2>Contact Us</h2>
+
+            <p>
+
+                123 Foodies Blvd, Kutus Town<br>
+
+                Phone: (+254) 726447990<br>
+
+                Email: <a href="mailto:info@foodieshotel.com">info@foodieshotel.com</a>
+
+            </p>
+
+            <p>
+
+                <a class="map-link" href="https://maps.google.com/?q=Sunrise+Cafe+123+Sunshine+Blvd" target="_blank">
+
+                    View us on Google Maps
+
+                </a>
+
+            </p>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
+                    
+                    <th>Category</th>
+
+                    <th>Item</th>
+
+                    <th>Price</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>Breakfast</td>
+
+                    <td>Buttermilk Pancakes</td>
+
+                    <td>150ksh</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Lunch</td>
+
+                    <td>Grilled Chicken Sandwich</td>
+
+                    <td>250ksh</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Drinks</td>
+
+                    <td>Fresh Lemonade</td>
+
+                    <td>100ksh</td></tr>
+
+            </table>
+
         </section>
 
         <!-- Contact Section -->
@@ -16,11 +168,10 @@
                 Email: <a href="mailto:info@foodieshotel.com">info@foodieshotel.com</a>
 
             </p>
-<p>
 
-                <a class="map-link" href="https://maps.google.com/?q=Foodies+Hotel+123+Foodies+Blvd" target="_blank">
+            <p>
 
-                    View us on Google Maps
+                <a class="map-link" href="https://maps.google.com/?q=Fo          View us on Google Maps
 
                 </a>
 
@@ -43,3 +194,68 @@
 </body>
 
 </html>
+
+
+css
+
+td {
+
+    padding: 15px;
+
+    border-bottom: 1px solid #eee;
+
+}
+
+tr:hover {
+
+    background-color: #fff0e0;
+
+}
+
+.contact p {
+
+    font-size: 1rem;
+
+    line-height: 1.6;
+
+}
+
+a {
+
+    color: #d2691e;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+.map-link {
+
+    display: inline-block;
+
+    margin-top: 10px;
+
+    background-color: #f4a460;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    transition: background-color 0.3s;
+
+}
+
+.map-link:hover {
+
+    background-color: #e07b39;
+
+}
